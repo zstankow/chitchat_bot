@@ -1,0 +1,52 @@
+.welcome-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.level-container, .theme-container, .bottom-container {
+  grid-column: span 3;
+  padding: 10px;
+  background-color: #b1d989;
+  border-radius: 15px;
+  border: 2px solid black;
+  border-bottom-width: 4px;
+  flex-direction: column; 
+}
+
+.radio-buttons, .theme-buttons {
+  display: grid;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.radio-buttons label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+  position: sticky;
+}
+
+.redirect-button, .theme-button {
+  background-color: #cce0f5;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.redirect-button:hover {
+  background-color: #a7d1fe;
+}

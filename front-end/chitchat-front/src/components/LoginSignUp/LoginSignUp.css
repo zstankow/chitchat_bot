@@ -1,0 +1,226 @@
+.modal-header {
+  color: #003249;
+  font-size: 16px;
+  font-weight: 300
+}
+
+label {
+  position: relative;
+  color: #003249 !important;
+}
+
+input {
+  height: 20px;
+  padding: 5px 15px 5px 15px;
+  width: 320px !important;
+  font-size: 16px !important;
+  margin: 5px 15px 5px 15px;
+  color: #003249!important;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 10px;
+  border: solid #003249;
+  border-width: 1px;
+}
+
+input.form-control:focus {
+  outline: none!important;
+}
+
+.modal-content{
+  border-style: solid;
+  border-color: black;
+  border-right-width: 2px;
+  border-bottom-width: 4px;
+}
+
+.modal-btn,
+.switch-login-signup-btn {
+  border: none;
+  border-radius: 0.25rem;
+  /* background-color: solid #f2cea2 !important; */
+  margin: 25px 0 10px 15px;
+  font-size: 16px;
+  text-shadow: 0 2px 2px 4px #003249(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  border-right-width: 2px;
+  border-bottom-width: 4px;
+  width: 350px;
+  height: 48px;
+  color: #003249;
+  font-family: "Varela Round", sans-serif;
+  background-color: #FAE0BD;
+}
+
+.modal-btn:hover,
+.switch-login-signup-btn:hover {
+  cursor: pointer;
+  background-color: #8BADD9;
+  transition: 0.3s, color 0.3s;
+}
+
+.btn-close {
+  opacity: 1;
+  height: 20px;
+  margin-right: 4px !important;
+  color: #003249!important;
+  font-size: 16px;
+  border: none;
+  background-color: #B1D989;
+}
+
+.modal-body,
+.modal-footer {
+  background-color:#B1D989; 
+  border-radius: 0 0 0.25rem 0.25rem ;
+  padding: 20px;
+}
+
+.modal-header{
+  background-color: #B1D989; 
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.modal-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: #003249;
+  color: transparent;
+}
+
+.modal-content {
+  width: 400px !important;
+  height: 80vh !important;
+  margin: 0 auto; 
+  /* opacity: 0.8; */
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 9999; 
+  border-radius: 30px;
+  /* border: solid black; */
+  border-width: 3px;
+  background-color: #B1D989;
+  border-style: solid;
+  border-color: black;
+  border-right-width: 2px;
+  border-bottom-width: 4px;
+}
+
+.modal-tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-tabs .nav-link {
+  flex: 1;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  border-width: 3px;
+  padding: 5px;
+  font-weight: 400;
+  background-color: transparent;
+
+}
+
+.modal-tabs .nav-link.active {
+  color: #003249;
+  font-size: 20px;
+}
+
+.checkbox-label {
+  margin: 10px;
+  position: relative;
+  display: inline;
+  color: #003249;
+}
+
+.form-checkput-input {
+  position: relative;
+}
+
+/* #isAdminCheckbox {
+  position: fixed;
+  width: 20px !important;
+  height: 20px !important; 
+  background-color: #f2cea2;
+  border: 1px solid #003249;
+  cursor: pointer;
+  margin: -5px 10px -15px -25px;
+}
+
+.form-checkput-input:after {
+  content: '';
+  display: none;
+  position: relative;
+  left: 7px; 
+  top: 4px;
+  height: 10px; 
+  border: solid #003249;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-input:checked + .checkbox-checkmark:after {
+  display: inline !important;
+} */
+
+.invalid {
+  border: 2px solid #003249 !important;
+  border-radius: 0.25rem;
+  width: 369px;
+}
+
+.modal-header-custom .close {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  color: black;
+}
+
+.button-close {
+  background-color: #B1D989;
+  border: none;
+  position: absolute;
+  transform: translateY(-50%);
+  right: 20px; 
+  top: 30px;
+}
+
+.button-close:hover {
+  cursor: pointer;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-buttons label {
+  position: relative;
+  color: #003249 !important;
+}
+
+.radio-buttons input[type="radio"] {
+  height: 25px;
+  padding: 5px 15px 5px 15px;
+  width: 320px !important;
+  font-size: 16px !important;
+  margin: 15px 25px 5px 15px;
+  color: #003249!important;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 10px;
+  border: solid #003249;
+  border-width: 1px;
+}
+
+.radio-buttons input[type="radio"]:focus {
+  outline: none!important;
+}

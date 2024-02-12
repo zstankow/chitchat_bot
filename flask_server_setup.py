@@ -29,6 +29,8 @@ def start_chat():
 
     # generate unique chat id
     chat_id = str(uuid.uuid4())
+    # for testing purposes can replace with:
+    # chat_id = '1'
 
     # initialize instance of Chatbot
     bot = Chatbot(api_key)
@@ -58,4 +60,7 @@ def cont_chat():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=8080)
+    # Uncomment for a remote host
+    # app.run(debug=True, host="0.0.0.0", port=8080)
+
+    app.run(debug=True)
