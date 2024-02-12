@@ -9,7 +9,7 @@ Whether you're ordering in a restaurant, navigating through a market, or engagin
   `pip install flask`
 
 - __OpenAI__: required for communication with ChatGPT's API
-  `pip install openai
+  `pip install openai`
   
 - other dependencies can be found in the __requirements.txt__ file
 
