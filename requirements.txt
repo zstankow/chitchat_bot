@@ -1,0 +1,5 @@
+openai
+pyyaml
+flask
+uuid
+flask_cors
