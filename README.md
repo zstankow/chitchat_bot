@@ -3,6 +3,8 @@
 This chatbot is designed to help users learn a new language through immersive conversations in various real-life scenarios. 
 Whether you're ordering in a restaurant, navigating through a market, or engaging in everyday conversations, our chatbot provides a dynamic and interactive learning experience.
 
+![image](https://github.com/zstankow/chitchat_bot/assets/150588332/93f3abb9-6286-4c3c-92b6-bcaffd044da5)
+
 ![image](https://github.com/zstankow/chitchat_bot/assets/150588332/75bdf4cd-7567-4198-a72b-98b9f98c9a51)
 
 
