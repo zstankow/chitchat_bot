@@ -22,10 +22,12 @@ Whether you're ordering in a restaurant, navigating through a market, or engagin
 - `config.yaml`
 - `test_connection.py`
 
-2. Run the script in your cmd:
+2. Insert your OpenAI API token in the `config.yaml` file
+   
+3. Run the script in your cmd:
     `flask_server_setup.py` - This runs the server, either on your localhost or virtual machine.
 
-3. Run the from an IDE or separate cmd:
+4. Run the from an IDE or separate cmd:
    `test_connection.py` - This allows you to test if your python server is working properly
 
 ## Under the hood
