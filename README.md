@@ -3,6 +3,8 @@
 This chatbot is designed to help users learn a new language through immersive conversations in various real-life scenarios. 
 Whether you're ordering in a restaurant, navigating through a market, or engaging in everyday conversations, our chatbot provides a dynamic and interactive learning experience.
 
+![image](https://github.com/zstankow/chitchat_bot/assets/150588332/75bdf4cd-7567-4198-a72b-98b9f98c9a51)
+
 
 ## Dependencies
 - __flask__
@@ -25,4 +27,9 @@ Whether you're ordering in a restaurant, navigating through a market, or engagin
 
 3. Run the from an IDE or separate cmd:
    `test_connection.py` - This allows you to test if your python server is working properly
+
+## Under the hood
+
+![image](https://github.com/zstankow/chitchat_bot/assets/150588332/b6e50b71-894b-4471-8a4c-0b15ca152f8a)
+
    
